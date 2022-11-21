@@ -32,6 +32,22 @@ public class Rx201ObservableCreate {
 
         observable2.subscribe(value -> System.out.println(value));
 
+        Observable<Integer> observable3 = Observable.create(emitter -> {
+            try {
+                for (int i = 0; i <= 10; i++) {
+                    emitter.onNext(100 / (10 - i));
+                }
+                emitter.onComplete();
+            } catch (Throwable e) {
+                emitter.onError(e);
+            }
+        });
+
+        observable3.subscribe(
+                value -> System.out.println(value),
+                error -> System.out.printf("ERROR: %s %n", error.getMessage())
+        );
+
     }
 
 }
