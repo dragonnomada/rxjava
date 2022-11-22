@@ -1,6 +1,6 @@
 package com.nomadacode;
 
-public class Refresco {
+public class HelloRefresco implements HelloProducto {
 
     String marca;
     String tipo;
@@ -8,7 +8,7 @@ public class Refresco {
     double precio;
     int existencias;
 
-    Refresco(String marca, String tipo, int mililitros, double precio, int existencias) {
+    HelloRefresco(String marca, String tipo, int mililitros, double precio, int existencias) {
         this.marca = marca;
         this.tipo = tipo;
         this.mililitros = mililitros;
@@ -16,17 +16,33 @@ public class Refresco {
         this.existencias = existencias;
     }
 
-    void describir() {
+    @Override
+    public String getNombre() {
+        return String.format("%s / %s %d ml", marca, tipo, mililitros);
+    }
+
+    @Override
+    public double getPrecio() {
+        return precio;
+    }
+
+    @Override
+    public int getExistencias() {
+        // Ir a la base de datos y recuperar las existencias
+        return existencias;
+    }
+
+    public void describir() {
         System.out.printf("[$%.2f] %s / %s %d ml (%d) %n", precio, marca, tipo, mililitros, existencias);
     }
 
     public static void main(String[] args) {
 
-        Refresco refresco1 = new Refresco("Coca Cola", "Fanta", 600, 13.5, 241);
+        HelloRefresco refresco1 = new HelloRefresco("Coca Cola", "Fanta", 600, 13.5, 241);
 
         refresco1.describir();
 
-        Refresco refresco2 = new Refresco("Pepsi", "7Up", 1000, 24.5, 33);
+        HelloRefresco refresco2 = new HelloRefresco("Pepsi", "7Up", 1000, 24.5, 33);
 
         refresco2.describir();
 
