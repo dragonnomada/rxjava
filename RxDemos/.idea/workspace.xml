@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48a6a9d3-15b6-4793-84c3-9c8e885c8140" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../LabRxJava/src/main/java/com/nomadacode/Rx305BooleanOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LabRxJava/src/main/java/com/nomadacode/Rx305BooleanOperators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notes/n305.md" beforeDir="false" afterPath="$PROJECT_DIR$/../notes/n305.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoConnectableObservable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoDisposing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoMaybe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoObservableCreateDisposing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoObservableCreateInterval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoObservableEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoObservableJust.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoObservableList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoOperadoresCondicionales.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoOperadoresSupresion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoOperadoresTransformacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoSingle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +34,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava3/rxjava/3.1.5/rxjava-3.1.5.jar!/io/reactivex/rxjava3/core/Observable.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava3/rxjava/3.1.5/rxjava-3.1.5.jar!/io/reactivex/rxjava3/core/ObservableSource.class" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -49,9 +64,9 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DemoObserverLambda">
-    <configuration name="DemoObservableWithChain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.DemoObservableWithChain" />
+  <component name="RunManager" selected="Application.DemoOperadoresTransformacion">
+    <configuration name="DemoOperadoresCondicionales" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.DemoOperadoresCondicionales" />
       <module name="RxDemos" />
       <extension name="coverage">
         <pattern>
@@ -63,8 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoObservableWithoutChain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.DemoObservableWithoutChain" />
+    <configuration name="DemoOperadoresSupresion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.DemoOperadoresSupresion" />
       <module name="RxDemos" />
       <extension name="coverage">
         <pattern>
@@ -76,8 +91,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoObserverLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.DemoObserverLambda" />
+    <configuration name="DemoOperadoresTransformacion (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.DemoOperadoresTransformacion" />
       <module name="RxDemos" />
       <extension name="coverage">
         <pattern>
@@ -89,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoObseverManual (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.DemoObseverManual" />
+    <configuration name="DemoOperadoresTransformacion (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.DemoOperadoresTransformacion" />
       <module name="RxDemos" />
       <extension name="coverage">
         <pattern>
@@ -102,8 +117,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoObseverManual" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.DemoObseverManual" />
+    <configuration name="DemoOperadoresTransformacion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.DemoOperadoresTransformacion" />
       <module name="RxDemos" />
       <extension name="coverage">
         <pattern>
@@ -117,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DemoObserverLambda" />
-        <item itemvalue="Application.DemoObseverManual (1)" />
-        <item itemvalue="Application.DemoObseverManual" />
-        <item itemvalue="Application.DemoObservableWithChain" />
-        <item itemvalue="Application.DemoObservableWithoutChain" />
+        <item itemvalue="Application.DemoOperadoresTransformacion" />
+        <item itemvalue="Application.DemoOperadoresTransformacion (2)" />
+        <item itemvalue="Application.DemoOperadoresTransformacion (1)" />
+        <item itemvalue="Application.DemoOperadoresSupresion" />
+        <item itemvalue="Application.DemoOperadoresCondicionales" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +149,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669218012047</updated>
       <workItem from="1669218013341" duration="10823000" />
-      <workItem from="1669262080126" duration="457000" />
+      <workItem from="1669262080126" duration="14528000" />
     </task>
     <servers />
   </component>
