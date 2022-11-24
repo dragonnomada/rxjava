@@ -6,7 +6,6 @@ public class Rx304ReduceOperators {
 
     public static void main(String[] args) {
 
-
         System.out.println("count()");
 
         Observable.range(1, 5)
