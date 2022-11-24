@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48a6a9d3-15b6-4793-84c3-9c8e885c8140" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../LabRxJava/src/main/java/com/nomadacode/Rx301ConditionalOperators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LabRxJava/src/main/java/com/nomadacode/TestOperatorSuppressError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../schemas/r102.1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../schemas/r102.2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../schemas/s102.1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../schemas/s102.2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../schemas/s102.3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabRxJava/src/main/java/com/nomadacode/Rx302SuppressOperators.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes/n302.md" beforeDir="false" afterPath="$PROJECT_DIR$/../notes/n302.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
