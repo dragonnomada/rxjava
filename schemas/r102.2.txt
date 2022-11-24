@@ -1,0 +1,25 @@
+Connection conn = ...
+
+conn.connect();
+
+Observable<Producto> productos = Object.create(emitter -> {
+	try {
+	  String sql = "SELECT ...";
+
+	  ResultSet rs = conn.execute(sql);
+
+	  for (Record rd : rs.toRecords()) {
+        emitter.onNext(new Producto(rd.getColumn("nombre"), ...));
+     }
+
+	  emitter.onComplete()
+  } catch(Throwable e) {
+     emitter.onError(e);
+  }
+});
+
+productos.suscribe(rs -> { ... })
+
+...
+
+productos.suscribe(rs -> { ... })
