@@ -2,7 +2,7 @@ package com.nomadacode;
 
 import io.reactivex.rxjava3.core.Observable;
 
-public class TestOperatorSupressError {
+public class TestOperatorSuppressError {
 
     public static void main(String[] args) {
 
@@ -18,7 +18,6 @@ public class TestOperatorSupressError {
                      // .onErrorResumeWith(Observable.empty());
                  })
                  .subscribe(System.out::println);
-
 
     }
 

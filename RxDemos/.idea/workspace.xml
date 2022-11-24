@@ -5,32 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48a6a9d3-15b6-4793-84c3-9c8e885c8140" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoGeneradorPrimos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoHelloProducto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoHelloRxJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoInterfazRunnableClasico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoInterfazRunnableLambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoInterval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoObservableMethodReference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoObservableSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoObservableSourceLambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoObservableStaticMethodReference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoObservableWithChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoObservableWithoutChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoObserverLambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoObseverManual.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/EncenderCarro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/IEncenderCarro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestEncenderCarro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestEncenderCarroLambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabRxJava/src/main/java/com/nomadacode/Rx301ConditionalOperators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabRxJava/src/main/java/com/nomadacode/TestOperatorSuppressError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../schemas/r102.1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../schemas/r102.2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../schemas/s102.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../schemas/s102.2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../schemas/s102.3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,20 +41,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/GitHub/rxjava/Rx205HotFx",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/GitHub/rxjava/Rx205HotFx&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.DemoObserverLambda">
     <configuration name="DemoObservableWithChain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.DemoObservableWithChain" />
@@ -157,7 +139,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669218012047</updated>
-      <workItem from="1669218013341" duration="10377000" />
+      <workItem from="1669218013341" duration="10823000" />
+      <workItem from="1669262080126" duration="457000" />
     </task>
     <servers />
   </component>
