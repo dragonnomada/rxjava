@@ -28,6 +28,11 @@ class Producto {
     public void setPrecio(double precio) {
         this.precio = precio;
     }
+
+    @Override
+    public String toString() {
+        return String.format("[$%.2f] %s", precio, nombre);
+    }
 }
 
 public class DemoHelloProducto {
