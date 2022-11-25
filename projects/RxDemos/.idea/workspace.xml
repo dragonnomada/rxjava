@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48a6a9d3-15b6-4793-84c3-9c8e885c8140" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../notes/n306.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../notes/n306.md" afterDir="false" />
-    </list>
+    <list default="true" id="48a6a9d3-15b6-4793-84c3-9c8e885c8140" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,20 +50,7 @@
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestTiendaFrutas">
-    <configuration name="DemoCollectionOperators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.DemoCollectionOperators" />
-      <module name="RxDemos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.DemoObservableAmb">
     <configuration name="DemoErrorHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.DemoErrorHandling" />
       <module name="RxDemos" />
@@ -79,8 +64,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoErrorSuppressing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.DemoErrorSuppressing" />
+    <configuration name="DemoObservableAmb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.DemoObservableAmb" />
+      <module name="RxDemos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoObservableConcat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.DemoObservableConcat" />
+      <module name="RxDemos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoObservableMerge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.DemoObservableMerge" />
       <module name="RxDemos" />
       <extension name="coverage">
         <pattern>
@@ -94,19 +105,6 @@
     </configuration>
     <configuration name="DemoOperadoresTransformacion (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.DemoOperadoresTransformacion" />
-      <module name="RxDemos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoPredicadoProducto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.DemoPredicadoProducto" />
       <module name="RxDemos" />
       <extension name="coverage">
         <pattern>
@@ -133,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoObservableAmb" />
+        <item itemvalue="Application.DemoObservableConcat" />
+        <item itemvalue="Application.DemoObservableMerge" />
         <item itemvalue="Application.TestTiendaFrutas" />
         <item itemvalue="Application.DemoErrorHandling" />
-        <item itemvalue="Application.DemoErrorSuppressing" />
-        <item itemvalue="Application.DemoCollectionOperators" />
-        <item itemvalue="Application.DemoPredicadoProducto" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +150,7 @@
       <workItem from="1669218013341" duration="10823000" />
       <workItem from="1669262080126" duration="15357000" />
       <workItem from="1669347907243" duration="1289000" />
-      <workItem from="1669388737721" duration="10296000" />
+      <workItem from="1669388737721" duration="12417000" />
     </task>
     <servers />
   </component>
