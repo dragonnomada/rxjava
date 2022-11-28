@@ -21,6 +21,8 @@ public class RandomUserRequestObservable {
 
             System.out.printf("[%s] REALIZANDO PETICIÓN AL API %n", date);
 
+            //Sleep.sleep(5000);
+
             // [REFERENCE] https://www.baeldung.com/java-http-request
 
             // Configuramos la URL de consumo al API

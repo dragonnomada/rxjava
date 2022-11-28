@@ -8,6 +8,7 @@ class Sleep {
     public static void sleep(long millis) {
         try {
             Thread.sleep(millis);
+            System.out.printf("Han pasado %.1f segundos... %n", millis / 1000.0);
         } catch (Throwable e) {
             e.printStackTrace();
         }

@@ -50,9 +50,9 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DemoObservableAmb">
-    <configuration name="DemoErrorHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.DemoErrorHandling" />
+  <component name="RunManager" selected="Application.DemoRequestApiReplaying">
+    <configuration name="DemoAppObservableMulticast" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.DemoAppObservableMulticast" />
       <module name="RxDemos" />
       <extension name="coverage">
         <pattern>
@@ -64,8 +64,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoObservableAmb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.DemoObservableAmb" />
+    <configuration name="DemoAppSubjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.DemoAppSubjects" />
       <module name="RxDemos" />
       <extension name="coverage">
         <pattern>
@@ -77,8 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoObservableConcat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.DemoObservableConcat" />
+    <configuration name="DemoRequestApiReplaying" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.DemoRequestApiReplaying" />
       <module name="RxDemos" />
       <extension name="coverage">
         <pattern>
@@ -90,8 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoObservableMerge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.DemoObservableMerge" />
+    <configuration name="DemoSubject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.DemoSubject" />
       <module name="RxDemos" />
       <extension name="coverage">
         <pattern>
@@ -103,21 +103,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoOperadoresTransformacion (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.DemoOperadoresTransformacion" />
-      <module name="RxDemos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestTiendaFrutas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.TestTiendaFrutas" />
+    <configuration name="DemoSubjectApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.DemoSubjectApi" />
       <module name="RxDemos" />
       <extension name="coverage">
         <pattern>
@@ -131,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DemoObservableAmb" />
-        <item itemvalue="Application.DemoObservableConcat" />
-        <item itemvalue="Application.DemoObservableMerge" />
-        <item itemvalue="Application.TestTiendaFrutas" />
-        <item itemvalue="Application.DemoErrorHandling" />
+        <item itemvalue="Application.DemoRequestApiReplaying" />
+        <item itemvalue="Application.DemoAppSubjects" />
+        <item itemvalue="Application.DemoAppObservableMulticast" />
+        <item itemvalue="Application.DemoSubjectApi" />
+        <item itemvalue="Application.DemoSubject" />
       </list>
     </recent_temporary>
   </component>
@@ -152,6 +139,7 @@
       <workItem from="1669347907243" duration="1289000" />
       <workItem from="1669388737721" duration="13333000" />
       <workItem from="1669431765806" duration="5000" />
+      <workItem from="1669648308311" duration="11574000" />
     </task>
     <servers />
   </component>
