@@ -5,10 +5,9 @@ import io.reactivex.rxjava3.subjects.PublishSubject;
 import io.reactivex.rxjava3.subjects.Subject;
 
 import java.io.*;
-import java.util.Arrays;
 import java.util.Scanner;
 
-public class Rx701Buffer {
+public class Rx701BufferFile {
 
     static void readLines(String fileName, Subject<String> subject) {
         Scanner scanner = null;
