@@ -8,8 +8,9 @@ public class Rx701BufferTime {
 
     public static void main(String[] args) {
 
-        Observable.interval(200, TimeUnit.MILLISECONDS)
-                .buffer(1, TimeUnit.SECONDS, 3)
+        Observable.interval(800, TimeUnit.MILLISECONDS)
+                .timestamp()
+                .buffer(Observable.interval(3, TimeUnit.SECONDS))
                 .blockingSubscribe(System.out::println);
 
     }
