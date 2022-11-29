@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48a6a9d3-15b6-4793-84c3-9c8e885c8140" name="Changes" comment="" />
+    <list default="true" id="48a6a9d3-15b6-4793-84c3-9c8e885c8140" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../LabRxJava/src/main/java/com/nomadacode/Rx705GroupingKeystrokes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoAppBufferCutOff.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoAppBufferCutOff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoAppSwitching.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoAppSwitching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoObservableBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoObservableSingleThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoObservableSync.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoObservableThreadShareValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoObservableThreading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoThreading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/RandomUserRequestObservable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/RandomUserRequestObservable.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,23 +53,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/GitHub/rxjava/projects/LabRxJava&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/GitHub/rxjava/projects/LabRxJava",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
-  <component name="RunManager" selected="Application.DemoRequestApiReplaying">
-    <configuration name="DemoAppObservableMulticast" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.DemoAppObservableMulticast" />
+}]]></component>
+  <component name="RunManager" selected="Application.DemoAppSwitching">
+    <configuration name="DemoAppBufferCutOff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.DemoAppBufferCutOff" />
       <module name="RxDemos" />
       <extension name="coverage">
         <pattern>
@@ -64,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoAppSubjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.DemoAppSubjects" />
+    <configuration name="DemoAppSwitching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.DemoAppSwitching" />
       <module name="RxDemos" />
       <extension name="coverage">
         <pattern>
@@ -77,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoRequestApiReplaying" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.DemoRequestApiReplaying" />
+    <configuration name="DemoObservableBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.DemoObservableBuffer" />
       <module name="RxDemos" />
       <extension name="coverage">
         <pattern>
@@ -90,8 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoSubject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.DemoSubject" />
+    <configuration name="DemoObservableSingleThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.DemoObservableSingleThread" />
       <module name="RxDemos" />
       <extension name="coverage">
         <pattern>
@@ -103,8 +121,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoSubjectApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.DemoSubjectApi" />
+    <configuration name="DemoWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.DemoWindow" />
       <module name="RxDemos" />
       <extension name="coverage">
         <pattern>
@@ -118,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DemoRequestApiReplaying" />
-        <item itemvalue="Application.DemoAppSubjects" />
-        <item itemvalue="Application.DemoAppObservableMulticast" />
-        <item itemvalue="Application.DemoSubjectApi" />
-        <item itemvalue="Application.DemoSubject" />
+        <item itemvalue="Application.DemoAppSwitching" />
+        <item itemvalue="Application.DemoAppBufferCutOff" />
+        <item itemvalue="Application.DemoWindow" />
+        <item itemvalue="Application.DemoObservableBuffer" />
+        <item itemvalue="Application.DemoObservableSingleThread" />
       </list>
     </recent_temporary>
   </component>
@@ -140,6 +158,7 @@
       <workItem from="1669388737721" duration="13333000" />
       <workItem from="1669431765806" duration="5000" />
       <workItem from="1669648308311" duration="11853000" />
+      <workItem from="1669735347027" duration="12939000" />
     </task>
     <servers />
   </component>
@@ -159,5 +178,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
   </component>
 </project>
