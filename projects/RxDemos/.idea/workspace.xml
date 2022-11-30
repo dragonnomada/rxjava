@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48a6a9d3-15b6-4793-84c3-9c8e885c8140" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../LabRxJava/src/main/java/com/nomadacode/Rx705GroupingKeystrokes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoAppBufferCutOff.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoAppBufferCutOff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoAppSwitching.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoAppSwitching.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoObservableBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoObservableSingleThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoObservableSync.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoObservableThreadShareValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoObservableThreading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoThreading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/RandomUserRequestObservable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/RandomUserRequestObservable.java" afterDir="false" />
-    </list>
+    <list default="true" id="48a6a9d3-15b6-4793-84c3-9c8e885c8140" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -158,7 +141,7 @@
       <workItem from="1669388737721" duration="13333000" />
       <workItem from="1669431765806" duration="5000" />
       <workItem from="1669648308311" duration="11853000" />
-      <workItem from="1669735347027" duration="12939000" />
+      <workItem from="1669735347027" duration="13584000" />
     </task>
     <servers />
   </component>
