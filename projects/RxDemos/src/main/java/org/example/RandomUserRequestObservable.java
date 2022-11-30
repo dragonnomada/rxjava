@@ -14,6 +14,10 @@ import java.time.format.DateTimeFormatter;
 public class RandomUserRequestObservable {
 
     public static Observable<String> request() {
+        return RandomUserRequestObservable.request(0);
+    }
+
+    public static Observable<String> request(int seed) {
         return Observable.create(emitter -> {
 
                     LocalDate dateObj = LocalDate.now();
@@ -28,7 +32,7 @@ public class RandomUserRequestObservable {
 
                     // Configuramos la URL de consumo al API
                     //URL url = new URL("https://raw.githubusercontent.com/dragonnomada/rxjava/main/notes/n501.md");
-                    URL url = new URL("https://randomuser.me/api");
+                    URL url = new URL(seed != 0 ? String.format("https://randomuser.me/api?seed=%d", seed): "https://randomuser.me/api");
 
                     // Configuramos la conexión para la petición
                     HttpURLConnection con = (HttpURLConnection) url.openConnection();

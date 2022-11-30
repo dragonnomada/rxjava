@@ -11,13 +11,17 @@ public class Rx804BackpressureBuffer {
     public static void main(String[] args) {
 
         Flowable.interval(1, TimeUnit.MILLISECONDS)
-                .onBackpressureBuffer(3,
-                        () -> {},
+                .onBackpressureBuffer(10_000,
+                        () -> {
+                            // TODO: UI buffer superado
+                            System.out.println("Buffer desbordado");
+                        },
                         //() -> System.out.println("Buffer superado"),
-                        BackpressureOverflowStrategy.DROP_LATEST
+                        //BackpressureOverflowStrategy.DROP_LATEST
                         //BackpressureOverflowStrategy.DROP_OLDEST
-                        //BackpressureOverflowStrategy.ERROR
+                        BackpressureOverflowStrategy.ERROR
                 )
+                .onErrorReturnItem(-1L)
                 .observeOn(Schedulers.io())
                 .subscribe(i -> {
                     Sleep.sleep(50);

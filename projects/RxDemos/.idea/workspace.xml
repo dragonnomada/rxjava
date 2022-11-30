@@ -5,14 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48a6a9d3-15b6-4793-84c3-9c8e885c8140" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../LabRxJava/src/main/java/com/nomadacode/Rx1001TestJUnit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LabRxJava/src/main/java/com/nomadacode/Rx1002BlockingOperators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LabRxJava/src/main/java/com/nomadacode/Rx1003TestObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LabRxJava/src/main/java/com/nomadacode/Rx1004TestScheduler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../notes/n1001.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../notes/n1001.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LabRxJava/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LabRxJava/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LabRxJava/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LabRxJava/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoApiOperators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoCustomOperators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoFlowableSubscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoJUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoLiftOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoObservableConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoObservableTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoTestUnitObservable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabRxJava/src/main/java/com/nomadacode/Rx804BackpressureBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LabRxJava/src/main/java/com/nomadacode/Rx804BackpressureBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/RandomUserRequestObservable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/RandomUserRequestObservable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,9 +65,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DemoAppSwitching">
-    <configuration name="DemoAppBufferCutOff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.DemoAppBufferCutOff" />
+  <component name="RunManager" selected="JUnit.DemoTestUnitObservable.testApi">
+    <configuration name="DemoTestUnitObservable.testApi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RxDemos" />
       <extension name="coverage">
         <pattern>
@@ -70,12 +74,15 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DemoTestUnitObservable" />
+      <option name="METHOD_NAME" value="testApi" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoAppSwitching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.DemoAppSwitching" />
+    <configuration name="DemoTestUnitObservable.testObservableReduce10000" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RxDemos" />
       <extension name="coverage">
         <pattern>
@@ -83,12 +90,15 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DemoTestUnitObservable" />
+      <option name="METHOD_NAME" value="testObservableReduce10000" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoObservableBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.DemoObservableBuffer" />
+    <configuration name="DemoTestUnitObservable.testObservableReduce3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RxDemos" />
       <extension name="coverage">
         <pattern>
@@ -96,12 +106,15 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DemoTestUnitObservable" />
+      <option name="METHOD_NAME" value="testObservableReduce3" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoObservableSingleThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.DemoObservableSingleThread" />
+    <configuration name="DemoTestUnitObservable.testObservableReduce4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RxDemos" />
       <extension name="coverage">
         <pattern>
@@ -109,12 +122,15 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DemoTestUnitObservable" />
+      <option name="METHOD_NAME" value="testObservableReduce4" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.DemoWindow" />
+    <configuration name="DemoTestUnitObservable.testObserver" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RxDemos" />
       <extension name="coverage">
         <pattern>
@@ -122,17 +138,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DemoTestUnitObservable" />
+      <option name="METHOD_NAME" value="testObserver" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DemoAppSwitching" />
-        <item itemvalue="Application.DemoAppBufferCutOff" />
-        <item itemvalue="Application.DemoWindow" />
-        <item itemvalue="Application.DemoObservableBuffer" />
-        <item itemvalue="Application.DemoObservableSingleThread" />
+        <item itemvalue="JUnit.DemoTestUnitObservable.testApi" />
+        <item itemvalue="JUnit.DemoTestUnitObservable.testObserver" />
+        <item itemvalue="JUnit.DemoTestUnitObservable.testObservableReduce4" />
+        <item itemvalue="JUnit.DemoTestUnitObservable.testObservableReduce3" />
+        <item itemvalue="JUnit.DemoTestUnitObservable.testObservableReduce10000" />
       </list>
     </recent_temporary>
   </component>
@@ -152,6 +172,8 @@
       <workItem from="1669648308311" duration="11853000" />
       <workItem from="1669735347027" duration="13584000" />
       <workItem from="1669776990652" duration="1234000" />
+      <workItem from="1669822169537" duration="12490000" />
+      <workItem from="1669835756161" duration="303000" />
     </task>
     <servers />
   </component>
