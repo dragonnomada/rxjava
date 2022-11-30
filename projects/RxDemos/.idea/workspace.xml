@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48a6a9d3-15b6-4793-84c3-9c8e885c8140" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../LabRxJava/src/main/java/com/nomadacode/Rx804BackpressureBuffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../notes/n802.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../notes/n802.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../notes/n803.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../notes/n803.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabRxJava/src/main/java/com/nomadacode/Rx901ComposeCustomOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabRxJava/src/main/java/com/nomadacode/Rx901CustomOperators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabRxJava/src/main/java/com/nomadacode/Rx902CustomOperators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabRxJava/src/main/java/com/nomadacode/Rx902LiftCustomOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../notes/n901.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../notes/n901.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
