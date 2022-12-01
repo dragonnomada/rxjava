@@ -1,2 +1,15 @@
-package org.example;public enum ServerResponseType {
+package org.example;
+
+public enum ServerResponseType {
+
+    RESPONSE_GREETING,
+    RESPONSE_PRODUCTOS,
+    RESPONSE_NEXT_PRODUCTO,
+    RESPONSE_FISRT_PRODUCTOS,
+    RESPONSE_LAST_PRODUCTOS,
+    RESPONSE_FILE_STATUS,
+    RESPONSE_NOTIFICATION_SUCCESS,
+    RESPONSE_NOTIFICATION_ERROR
+    // ...
+
 }

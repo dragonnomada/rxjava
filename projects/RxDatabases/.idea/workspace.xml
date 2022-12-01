@@ -1,24 +1,259 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b27873f-5005-43bd-b507-df0ff2d0d38a" name="Changes" comment="" />
+    <list default="true" id="3b27873f-5005-43bd-b507-df0ff2d0d38a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../LabRxJava/src/main/java/com/nomadacode/Lab1TestDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabRxJava/src/main/java/com/nomadacode/Lab2TestDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabRxJava/src/main/java/com/nomadacode/Lab3TestDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabRxJava/src/main/java/com/nomadacode/Lab4ClientSocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabRxJava/src/main/java/com/nomadacode/Lab4ServerSocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Mysql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestMysql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entinty/Prueba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RxSockets/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RxSockets/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RxSockets/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RxSockets/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RxSockets/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RxSockets/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RxSockets/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RxSockets/src/main/java/org/example/ClientRequestType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RxSockets/src/main/java/org/example/Greeting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RxSockets/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RxSockets/src/main/java/org/example/Mysql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RxSockets/src/main/java/org/example/Producto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RxSockets/src/main/java/org/example/RxServerSocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RxSockets/src/main/java/org/example/ServerResponseType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RxSockets/src/main/java/org/example/TestClientSocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RxSockets/src/main/java/org/example/TestRxServerSocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RxSockets/src/main/java/org/example/TestServerSocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabRxJava/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LabRxJava/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabRxJava/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LabRxJava/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoApiOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoApiOperators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoAppBufferCutOff.form" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoAppBufferCutOff.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoAppBufferCutOff.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoAppBufferCutOff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoAppObservableMulticast.form" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoAppObservableMulticast.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoAppObservableMulticast.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoAppObservableMulticast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoAppSubjects.form" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoAppSubjects.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoAppSubjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoAppSubjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoAppSwitching.form" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoAppSwitching.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoAppSwitching.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoAppSwitching.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoCollectionOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoCollectionOperators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoConnectableObservable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoConnectableObservable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoCustomOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoCustomOperators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoDisposing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoDisposing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoErrorHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoErrorHandling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoErrorSuppressing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoErrorSuppressing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoFlowableSubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoFlowableSubscriber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoGeneradorPrimos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoGeneradorPrimos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoHelloProducto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoHelloProducto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoHelloRxJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoHelloRxJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoInterfazRunnableClasico.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoInterfazRunnableClasico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoInterfazRunnableLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoInterfazRunnableLambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoInterval.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoInterval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoJUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoJUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoLiftOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoLiftOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoMaybe.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoMaybe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoMethodReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoMethodReference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoMulticastingAutoconnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoMulticastingAutoconnect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoMulticastingRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoMulticastingRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoObservableAmb.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoObservableAmb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoObservableBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoObservableBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoObservableConcat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoObservableConcat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoObservableConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoObservableConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoObservableCreateDisposing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoObservableCreateDisposing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoObservableCreateInterval.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoObservableCreateInterval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoObservableEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoObservableEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoObservableGrouping.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoObservableGrouping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoObservableJust.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoObservableJust.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoObservableList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoObservableList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoObservableMerge.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoObservableMerge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoObservableMethodReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoObservableMethodReference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoObservableSingleThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoObservableSingleThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoObservableSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoObservableSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoObservableSourceLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoObservableSourceLambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoObservableStaticMethodReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoObservableStaticMethodReference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoObservableSync.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoObservableSync.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoObservableThreadShareValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoObservableThreadShareValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoObservableThreading.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoObservableThreading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoObservableTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoObservableTransformer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoObservableWithChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoObservableWithChain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoObservableWithoutChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoObservableWithoutChain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoObserverLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoObserverLambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoObseverManual.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoObseverManual.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoOperadoresCondicionales.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoOperadoresCondicionales.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoOperadoresSupresion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoOperadoresSupresion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoOperadoresTransformacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoOperadoresTransformacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoPredicadoProducto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoPredicadoProducto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoReductionOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoReductionOperators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoRequestApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoRequestApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoRequestApiCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoRequestApiCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoRequestApiReplaying.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoRequestApiReplaying.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoShare.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoShare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoSingle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoSingle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoSubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoSubject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoSubjectApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoSubjectApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoTestUnitObservable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoTestUnitObservable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoThreading.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoThreading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/DemoWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/DemoWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/EncenderCarro.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/EncenderCarro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/Fruta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/Fruta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/IEncenderCarro.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/IEncenderCarro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/ListProductos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/ListProductos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/ListProductosObservable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/ListProductosObservable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/RandomUserRequestObservable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/RandomUserRequestObservable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/SummaryPipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/SummaryPipeline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/TestEncenderCarro.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/TestEncenderCarro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/TestEncenderCarroLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/TestEncenderCarroLambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/TestListProductos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/TestListProductos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/TestTiendaFrutas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/TestTiendaFrutas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/TiendaFruta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/TiendaFruta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RxDemos/src/main/java/org/example/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RxDemos/example/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../schemas/s107.1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../schemas/s107.1.png" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2IJlKq4JrDH1rFn19L4JAGOiDmY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="JUnit.TestBlocking.testAsync">
+    <configuration name="TestBlocking.testAsync" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RxDatabases" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestBlocking" />
+      <option name="METHOD_NAME" value="testAsync" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBlocking.testBlocking" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RxDatabases" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestBlocking" />
+      <option name="METHOD_NAME" value="testBlocking" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBlocking.testBlockingWithThread" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RxDatabases" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestBlocking" />
+      <option name="METHOD_NAME" value="testBlockingWithThread" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMysql.testExecuteQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RxDatabases" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestMysql" />
+      <option name="METHOD_NAME" value="testExecuteQuery" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMysql.testMysqlQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RxDatabases" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestMysql" />
+      <option name="METHOD_NAME" value="testMysqlQuery" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestBlocking.testAsync" />
+        <item itemvalue="JUnit.TestBlocking.testBlockingWithThread" />
+        <item itemvalue="JUnit.TestBlocking.testBlocking" />
+        <item itemvalue="JUnit.TestMysql.testExecuteQuery" />
+        <item itemvalue="JUnit.TestMysql.testMysqlQuery" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -27,7 +262,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669907505898</updated>
+      <workItem from="1669907507126" duration="5835000" />
+      <workItem from="1669913403757" duration="4545000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

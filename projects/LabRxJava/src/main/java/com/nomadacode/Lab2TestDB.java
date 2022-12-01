@@ -1,44 +1,142 @@
 package com.nomadacode;
 
-import java.lang.reflect.InvocationTargetException;
+import io.reactivex.rxjava3.annotations.NonNull;
+import io.reactivex.rxjava3.core.*;
+import io.reactivex.rxjava3.functions.Supplier;
+import io.reactivex.rxjava3.schedulers.Schedulers;
+
 import java.sql.*;
+import java.util.function.Consumer;
 
-public class Lab1TestDB {
+class Mysql {
 
-    public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException, SQLException {
+    public static Observable<Connection> createConnection(String driver, String uri, String db, String user, String password) {
+        return Observable.using(() -> {
+            Class.forName(driver).getDeclaredConstructor().newInstance();
+            String url = uri + db;
+            return DriverManager.getConnection(url, user, password);
+        }, connection -> {
+            return Observable.just(connection);
+        }, connection -> {
+            System.out.println("Cerrando la conexión");
+            //Sleep.sleep(5000);
+            connection.close();
+        });
 
-        Connection connection;
+        /*return Observable.create(emitter -> {
+                    try {
+                        Class.forName(driver).getDeclaredConstructor().newInstance();
+                    } catch (Throwable e) {
+                        emitter.onError(e);
+                        return;
+                    }
 
-        String url = "jdbc:mysql://localhost:3306/";
-        String dbName = "lab";
-        String driver = "com.mysql.cj.jdbc.Driver";
-        String user = "root";
-        String password = "password";
+                    String url = uri + db;
 
-        Class.forName(driver).getDeclaredConstructor().newInstance();
+                    try {
+                        Connection connection = DriverManager.getConnection(url, user, password);
+                        emitter.onNext(connection);
+                        //emitter.onComplete();
+                    } catch (SQLException e) {
+                        emitter.onError(e);
+                        return;
+                    }
+                }).cast(Connection.class)
+                .doAfterNext(connection -> {
+                    System.out.println("Cerrando la conexión");
+                    //Sleep.sleep(5000);
+                    connection.close();
+                });*/
+    }
 
-        connection = DriverManager.getConnection(url + dbName, user, password);
+    public static Observable<Connection> createConnection(String uri, String db, String user, String password) {
+        return Mysql.createConnection("com.mysql.cj.jdbc.Driver", uri, db, user, password);
+    }
 
-        System.out.println("Conectado correctamente a la base de datos");
+    public static Observable<Connection> createConnection(String db, String user, String password) {
+        return Mysql.createConnection("jdbc:mysql://localhost:3306/", db, user, password);
+    }
 
-        PreparedStatement statement = connection.prepareStatement("SELECT NOW()");
+    public static ObservableTransformer<Connection, PreparedStatement> createQuery(String sql, Consumer<PreparedStatement> onPreparedStatement) {
+        return upstreamConnection -> upstreamConnection
+                .map(connection -> connection.prepareStatement(sql))
+                .map(statement -> {
+                    onPreparedStatement.accept(statement);
+                    return statement;
+                })
+                .doAfterNext(statement -> {
+                    System.out.println("Cerrando el statement");
+                    //Sleep.sleep(4000);
+                    statement.close();
+                });
+    }
 
-        boolean result = statement.execute();
+    public static ObservableTransformer<Connection, PreparedStatement> createQuery(String sql) {
+        return Mysql.createQuery(sql, statement -> {
+        });
+    }
 
-        System.out.println(result);
+    public static ObservableTransformer<PreparedStatement, ResultSet> executeQuery() {
+        return upstreamStatement -> upstreamStatement
+                .map(statement -> {
+                    boolean result = statement.execute();
+                    if (result) {
+                        return statement.getResultSet();
+                    }
+                    throw new SQLException("Empty execute");
+                })
+                .doAfterNext(resultSet -> {
+                    System.out.println("Cerrando el resultSet");
+                    //Sleep.sleep(3000);
+                    resultSet.close();
+                })
+                .flatMap(resultSet -> {
+                    return Observable.create(emitter -> {
+                        while (resultSet.next()) {
+                            emitter.onNext(resultSet);
+                        }
+                    });
+                })
+                .cast(ResultSet.class);
+    }
 
-        ResultSet resultSet = statement.getResultSet();
+}
 
-        while (resultSet.next()) {
-            Timestamp now = resultSet.getTimestamp(1);
-            System.out.println(now);
-        }
+public class Lab2TestDB {
 
-        statement.close();
+    public static void main(String[] args) {
 
-        connection.close();
+        Observable<ResultSet> querySource = Mysql.createConnection("lab", "root", "password")
+                .compose(Mysql.createQuery("SELECT *, now() as now FROM productos"))
+                .compose(Mysql.executeQuery());
 
-        System.out.println("Conexión cerrada exitosamente");
+        querySource.subscribe(resultSet -> {
+            int id = resultSet.getInt("id");
+            String nombre = resultSet.getString("nombre");
+            double precio = resultSet.getDouble("precio");
+            int existencias = resultSet.getInt("existencias");
+            boolean activo = resultSet.getBoolean("activo");
+            Timestamp creado = resultSet.getTimestamp("creado");
+            Timestamp actualizado = resultSet.getTimestamp("actualizado");
+            Timestamp now = resultSet.getTimestamp("now");
+
+            System.out.printf("[%d] %-20s $%04.2f (%d) [ACTIVO=%B] [C: %s U: %s N: %s] %n",
+                    id, nombre, precio, existencias, activo, creado, actualizado, now);
+        });
+
+        querySource.subscribe(resultSet -> {
+            int id = resultSet.getInt("id");
+            String nombre = resultSet.getString("nombre");
+            double precio = resultSet.getDouble("precio");
+            int existencias = resultSet.getInt("existencias");
+            boolean activo = resultSet.getBoolean("activo");
+            Timestamp creado = resultSet.getTimestamp("creado");
+            Timestamp actualizado = resultSet.getTimestamp("actualizado");
+            Timestamp now = resultSet.getTimestamp("now");
+
+            System.out.printf("[%d] %-20s $%04.2f (%d) [ACTIVO=%B] [C: %s U: %s N: %s] %n",
+                    id, nombre, precio, existencias, activo, creado, actualizado, now);
+        });
 
     }
 
