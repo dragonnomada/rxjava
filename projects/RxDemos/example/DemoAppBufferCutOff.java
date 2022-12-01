@@ -80,7 +80,7 @@ public class DemoAppBufferCutOff extends JFrame {
 
         this.add(panel1);
         this.setSize(400, 400);
-        this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+        this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
     }
 
